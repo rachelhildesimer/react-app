@@ -1,0 +1,284 @@
+
+
+/* SignIn.css */
+.sign-in-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(163, 203, 43, 0.1);
+}
+
+.sign-in-container h2 {
+  text-align: center;
+}
+
+.sign-in-container label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.sign-in-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.sign-in-container button {
+  width: 100%;
+  padding: 10px;
+  background-color:  #0c8c5b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.sign-in-container .error-message {
+  color: red;
+  text-align: center;
+}
+
+/* UpdateApartment.css */
+.update-apartment-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-apartment-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.update-apartment-container button {
+  width: 100%;
+  padding: 10px;
+  background-color:  #0c8c5b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button{
+  align-items: center;
+  width: 10rem;
+  padding: 10px;
+  background-color:  #0c8c5b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Home.css */
+.home-container {
+  text-align: center;
+  padding: 20px;
+}
+
+body{
+  background-color: black;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #514f4f;
+}
+.nav {
+  background-color: #514f4f;
+  padding: 10px;
+}
+
+.link {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.active {
+  font-weight: bold;
+}
+
+/* Login.css */
+.login-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+.login-title {
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-button, .signin-button {
+  margin-top: 10px;
+}
+
+/* MyApartments.css */
+.my-apartments-container {
+  display: flex;
+  align-items: center;
+  grid-template-columns: repeat(5,1fr);
+}
+
+/* Main.css */
+.main-container {
+  padding: 20px;
+}
+
+/* AddCity.css */
+.add-city-container {
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.error-message {
+  color: red;
+}
+
+/* Apartment.css */
+.apartment-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 5 equal columns */
+  gap: 10px; /* Space between grid items */
+  padding: 20px; /* Padding around the grid */
+}
+
+/* style.css */
+.card {
+  border: 1px solid #ccc; /* Border for each item */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding inside each item */
+  background-color: #514f4f; /* Light background color */
+  text-align: center; /* Center text */
+}
+#p{
+  justify-content: center;
+  text-align: center;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+.img {
+  border-radius: 5px;
+}
+
+/* Category.css */
+.category-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 5 equal columns */
+  gap: 10px; /* Space between grid items */
+  padding: 20px; /* Padding around the grid */
+}
+
+/* City.css */
+.city-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Creates 5 equal columns */
+  gap: 10px; /* Space between grid items */
+  padding: 20px; /* Padding around the grid */
+}
+
+/* AddApartment.css */
+.add-apartment-container {
+  background-color:  #212423;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.add-apartment-container:hover {
+  transform: scale(1.02);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus {
+  border-color:  #0c8c5b;
+}
+
+/* AddCategory.css */
+.add-category-container {
+  margin-top: 20px;
+}
+
+.add-category-container input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 70%;
+}
+
+.add-category-container button {
+  padding: 10px 15px;
+  background-color: #0c8c5b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-category-container button:hover {
+  background-color:  #0c8c5b;
+}
+
+input{
+  align-items: center;
+  width: 10rem;
+  padding: 10px;
+  background-color:  #a16737;
+  cursor: pointer;
+}
+
+select{
+  align-items: center;
+  width: 10rem;
+  padding: 10px;
+  background-color:  #0c8c5b;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
