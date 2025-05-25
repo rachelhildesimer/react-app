@@ -1,0 +1,17 @@
+/* .cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+    width: 80vw;
+    float: left;
+    border: 2px solid black;
+}
+
+.card {
+    border: 2px solid chocolate;
+    width: 10vw;
+    height: 10vw;
+    margin: 1rem;
+} */
